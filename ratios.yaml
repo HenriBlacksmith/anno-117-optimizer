@@ -1,0 +1,121 @@
+latium:
+  woodcutter:
+    rate: 2
+    needs: []
+  sheep:
+    rate: 2
+    needs: []
+  hemp:
+    rate: 2
+    needs: []
+  oat:
+    rate: 2
+    needs: []
+  clay:
+    rate: 2
+    needs: []
+  salt:
+    rate: 2
+    needs: []
+  pig:
+    rate: 2
+    needs: []
+  charcoal:
+    rate: 2
+    needs: []
+  limestone:
+    rate: 2
+    needs: []
+  wheat:
+    rate: 1
+    needs: []
+  resin:
+    rate: 1
+    needs: []
+  olives:
+    rate: 0.5
+    needs: []
+  lavender:
+    rate: 0.5
+    needs: []
+  marble:
+    rate: 1
+    needs: []
+  grapes:
+    rate: 0.66
+    needs: []
+  sawmill:
+    rate: 2
+    needs: 
+     - woodcutter
+  porridge:
+    rate: 1
+    needs:
+      - oat
+  spinner:
+    rate: 1
+    needs:
+      - hemp
+  pileus:
+    rate: 1
+    needs:
+      - sheep
+  scomber:
+    rate: 1
+    needs:
+      - []
+  flour:
+    rate: 2
+    needs:
+      - []
+  tiles:
+    rate: 1
+    needs:
+      - clay
+      - charcoal
+  potter:
+    rate: 1
+    needs:
+      - clay
+      - resin
+      - charcoal
+  bread:
+    rate: 1
+    needs:
+      - wheat
+      - flour
+      - charcoal
+  garum:
+    rate: 0.66
+    needs:
+      - salt
+      - scomber
+  leather:
+    rate: 1
+    needs: []
+  sandals:
+    rate: 0.5
+    needs:
+     - pig
+     - salt
+     - leather
+  lard:
+    rate: 1
+    needs: []
+  soap:
+    rate: 1
+    needs:
+      - pig
+      - charcoal
+      - lard
+      - lavender
+  amphorae:
+    rate: 1
+    needs:
+      - clay
+      - resin
+      - charcoal
+  olive_oil:
+    rate: 0.66
+    needs:
+      - olives
