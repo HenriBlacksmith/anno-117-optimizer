@@ -7,7 +7,7 @@ from models import ProductionChain, ResidentType, Resource
 @lru_cache
 def load_resources() -> dict[str, Resource]:
     resources_index: dict[str, Resource] = dict()
-    with open("ratios.yaml") as ratios_file:
+    with open("data/ratios.yaml") as ratios_file:
         ratios = yaml.safe_load(ratios_file)
     for i in ratios["latium"].items():
         resources_index[i[0]] = Resource(
