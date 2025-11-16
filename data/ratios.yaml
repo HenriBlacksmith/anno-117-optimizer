@@ -50,15 +50,21 @@ latium:
   limestone:
     rate: 2
     needs: []
-    workforce: []
+    workforce:
+      - type: plebeian
+        count: 5
   wheat:
     rate: 1
     needs: []
-    workforce: []
+    workforce:
+      - type: liberti
+        count: 4
   resin:
     rate: 1
     needs: []
-    workforce: []
+    workforce:
+      - type: plebeian
+        count: 3
   olives:
     rate: 0.5
     needs: []
@@ -85,12 +91,16 @@ latium:
     rate: 2
     needs:
       - woodcutter
-    workforce: []
+    workforce:
+      - type: liberti
+        count: 4
   porridge:
     rate: 1
     needs:
       - oat
-    workforce: []
+    workforce:
+      - type: liberti
+        count: 2
   spinner:
     rate: 1
     needs:
@@ -100,7 +110,9 @@ latium:
     rate: 1
     needs:
       - sheep
-    workforce: []
+    workforce:
+      - type: liberti
+        count: 3
   scomber:
     rate: 1
     needs: []
