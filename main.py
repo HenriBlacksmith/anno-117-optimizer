@@ -31,4 +31,5 @@ if __name__ == "__main__":
     print(get_chains("pileus", 2, index))
     print(get_chains("bread", 2, index))
     print(get_chains("amphorae", 2, index))
-    print(get_chains("olive_oil", 3, index))
+    print(get_chains("concrete", 6, index))
+    print(get_chains("wine", 1, index))

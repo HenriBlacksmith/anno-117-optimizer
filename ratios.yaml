@@ -119,3 +119,23 @@ latium:
     rate: 0.66
     needs:
       - olives
+  sand:
+    rate: 1.33
+    needs: []
+  honey:
+    rate: 1.33
+    needs: []
+  concrete:
+    rate: 0.66
+    needs:
+      - limestone
+      - sand
+  wine:
+    rate: 1.33
+    needs:
+      - grapes
+      - honey
+  ropes:
+    rate: 0.5
+    needs:
+      - hemp
