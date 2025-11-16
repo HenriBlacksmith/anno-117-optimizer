@@ -2,106 +2,154 @@ latium:
   woodcutter:
     rate: 2
     needs: []
+    workforce:
+      - type: liberti
+        count: 3
   sheep:
     rate: 2
     needs: []
+    workforce:
+      - type: liberti
+        count: 3
   hemp:
     rate: 2
     needs: []
+    workforce:
+      - type: liberti
+        count: 3
   oat:
     rate: 2
     needs: []
+    workforce:
+      - type: liberti
+        count: 3
   clay:
     rate: 2
     needs: []
+    workforce:
+      - type: plebeian
+        count: 3
   salt:
     rate: 2
     needs: []
+    workforce:
+      - type: plebeian
+        count: 4
   pig:
     rate: 2
     needs: []
+    workforce:
+      - type: liberti
+        count: 3
   charcoal:
     rate: 2
     needs: []
+    workforce:
+      - type: plebeian
+        count: 4
   limestone:
     rate: 2
     needs: []
+    workforce: []
   wheat:
     rate: 1
     needs: []
+    workforce: []
   resin:
     rate: 1
     needs: []
+    workforce: []
   olives:
     rate: 0.5
     needs: []
+    workforce:
+      - type: liberti
+        count: 4
   lavender:
     rate: 0.5
     needs: []
+    workforce:
+      - type: liberti
+        count: 4
   marble:
     rate: 1
     needs: []
+    workforce: []
   grapes:
     rate: 0.66
     needs: []
+    workforce: []
   sawmill:
     rate: 2
-    needs: 
-     - woodcutter
+    needs:
+      - woodcutter
+    workforce: []
   porridge:
     rate: 1
     needs:
       - oat
+    workforce: []
   spinner:
     rate: 1
     needs:
       - hemp
+    workforce: []
   pileus:
     rate: 1
     needs:
       - sheep
+    workforce: []
   scomber:
     rate: 1
-    needs:
-      - []
+    needs: []
+    workforce:
+      - type: liberti
+        count: 4
   flour:
     rate: 2
-    needs:
-      - []
+    needs: []
+    workforce: []
   tiles:
     rate: 1
     needs:
       - clay
       - charcoal
+    workforce: []
   potter:
     rate: 1
     needs:
       - clay
       - resin
       - charcoal
+    workforce: []
   bread:
     rate: 1
     needs:
       - wheat
       - flour
       - charcoal
+    workforce: []
   garum:
     rate: 0.66
     needs:
       - salt
       - scomber
+    workforce: []
   leather:
     rate: 1
     needs: []
+    workforce: []
   sandals:
     rate: 0.5
     needs:
-     - pig
-     - salt
-     - leather
+      - pig
+      - salt
+      - leather
+    workforce: []
   lard:
     rate: 1
     needs: []
+    workforce: []
   soap:
     rate: 1
     needs:
@@ -109,33 +157,41 @@ latium:
       - charcoal
       - lard
       - lavender
+    workforce: []
   amphorae:
     rate: 1
     needs:
       - clay
       - resin
       - charcoal
+    workforce: []
   olive_oil:
     rate: 0.66
     needs:
       - olives
+    workforce: []
   sand:
     rate: 1.33
     needs: []
+    workforce: []
   honey:
     rate: 1.33
     needs: []
+    workforce: []
   concrete:
     rate: 0.66
     needs:
       - limestone
       - sand
+    workforce: []
   wine:
     rate: 1.33
     needs:
       - grapes
       - honey
+    workforce: []
   ropes:
     rate: 0.5
     needs:
       - hemp
+    workforce: []
