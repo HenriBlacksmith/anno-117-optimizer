@@ -1,32 +1,8 @@
-from dataclasses import dataclass, field
-from enum import StrEnum
 from functools import lru_cache
 import json
-from pydantic import BaseModel
 import yaml
 
-
-class ResidentType(StrEnum):
-    LIBERTI = "liberti"
-    PLEBEIAN = "plebeian"
-    EQUITES = "equites"
-    PATRICIAN = "patrician"
-
-
-class Workers(BaseModel):
-    type: ResidentType
-    count: int
-
-
-class Resource(BaseModel):
-    name: str
-    production_ratio: float
-    needs: list[str]
-    workforce: list[Workers] = field(default_factory=list)
-
-
-type ProductionChain = dict[str, float]
-
+from models import ProductionChain, ResidentType, Resource
 
 @lru_cache
 def load_resources() -> dict[str, Resource]:
