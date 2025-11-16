@@ -78,7 +78,9 @@ latium:
   grapes:
     rate: 0.66
     needs: []
-    workforce: []
+    workforce:
+      - type: liberti
+        count: 3
   sawmill:
     rate: 2
     needs:
@@ -138,7 +140,9 @@ latium:
   leather:
     rate: 1
     needs: []
-    workforce: []
+    workforce:
+      - type: plebeian
+        count: 3
   sandals:
     rate: 0.5
     needs:
@@ -149,7 +153,9 @@ latium:
   lard:
     rate: 1
     needs: []
-    workforce: []
+    workforce:
+      - type: plebeian
+        count: 3
   soap:
     rate: 1
     needs:
@@ -157,19 +163,25 @@ latium:
       - charcoal
       - lard
       - lavender
-    workforce: []
+    workforce:
+      - type: plebeian
+        count: 3
   amphorae:
     rate: 1
     needs:
       - clay
       - resin
       - charcoal
-    workforce: []
+    workforce:
+      - type: plebeian
+        count: 4
   olive_oil:
     rate: 0.66
     needs:
       - olives
-    workforce: []
+    workforce:
+      - type: plebeian
+        count: 5
   sand:
     rate: 1.33
     needs: []
